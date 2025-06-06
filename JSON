@@ -1,0 +1,840 @@
+{
+  "Bx Dark": {
+    "Typography": {
+      "Body 1": {
+        "$type": "typography",
+        "$value": {
+          "fontSize": "18px",
+          "fontFamily": "GT Walsheim",
+          "fontWeight": 400,
+          "lineHeight": 1.44,
+          "letterSpacing": "0px"
+        }
+      }
+    }
+  },
+  "Colour": {
+    "Gradient": {
+      "Heavy": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#1D1D1B00",
+            "position": 0
+          },
+          {
+            "color": "#1D1D1B99",
+            "position": 0.5
+          },
+          {
+            "color": "#1D1D1BCC",
+            "position": 1
+          }
+        ]
+      },
+      "Loading": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#1D1D1B00",
+            "position": 0
+          },
+          {
+            "color": "#FFFFFF4D",
+            "position": 1
+          }
+        ]
+      },
+      "Medium": {
+        "$type": "gradient",
+        "$value": [
+          {
+            "color": "#1D1D1B33",
+            "position": 0
+          },
+          {
+            "color": "#1D1D1B00",
+            "position": 1
+          }
+        ]
+      }
+    }
+  },
+  "Colours": {
+    "Black": {
+      "100": {
+        "$type": "color",
+        "$value": "#1D1D1B33"
+      }
+    }
+  },
+  "NK-The Sun": {
+    "palettes": {
+      "fabulous010": {
+        "$type": "color",
+        "$value": "#FFF0F6",
+        "$description": "#FFF0F6"
+      },
+      "fabulous020": {
+        "$type": "color",
+        "$value": "#FFD0E3",
+        "$description": "#FFD0E3"
+      },
+      "fabulous030": {
+        "$type": "color",
+        "$value": "#FFA3C8",
+        "$description": "#FFA3C8"
+      },
+      "fabulous040": {
+        "$type": "color",
+        "$value": "#FF79AF",
+        "$description": "#FF79AF"
+      },
+      "fabulous050": {
+        "$type": "color",
+        "$value": "#FF418D",
+        "$description": "#FF418D"
+      },
+      "fabulous060": {
+        "$type": "color",
+        "$value": "#EA005E",
+        "$description": "#EA005E"
+      },
+      "fabulous070": {
+        "$type": "color",
+        "$value": "#B30047",
+        "$description": "#B30047"
+      },
+      "fabulous080": {
+        "$type": "color",
+        "$value": "#820034",
+        "$description": "#820034"
+      },
+      "fabulous090": {
+        "$type": "color",
+        "$value": "#660029",
+        "$description": "#660029"
+      },
+      "fabulous100": {
+        "$type": "color",
+        "$value": "#3B0018",
+        "$description": "#3B0018"
+      },
+      "football010": {
+        "$type": "color",
+        "$value": "#EDF5F2",
+        "$description": "#EDF5F2"
+      },
+      "football020": {
+        "$type": "color",
+        "$value": "#CAE2D9",
+        "$description": "#CAE2D9"
+      },
+      "football030": {
+        "$type": "color",
+        "$value": "#9BC9B7",
+        "$description": "#9BC9B7"
+      },
+      "football040": {
+        "$type": "color",
+        "$value": "#71B399",
+        "$description": "#71B399"
+      },
+      "football050": {
+        "$type": "color",
+        "$value": "#499D7C",
+        "$description": "#499D7C"
+      },
+      "football060": {
+        "$type": "color",
+        "$value": "#208662",
+        "$description": "#208662"
+      },
+      "football070": {
+        "$type": "color",
+        "$value": "#226349",
+        "$description": "#226349"
+      },
+      "football080": {
+        "$type": "color",
+        "$value": "#194734",
+        "$description": "#194734"
+      },
+      "football090": {
+        "$type": "color",
+        "$value": "#133629",
+        "$description": "#133629"
+      },
+      "football100": {
+        "$type": "color",
+        "$value": "#0A1C16",
+        "$description": "#0A1C16"
+      },
+      "health010": {
+        "$type": "color",
+        "$value": "#C9FEF4",
+        "$description": "#C9FEF4"
+      },
+      "health020": {
+        "$type": "color",
+        "$value": "#5CF3DD",
+        "$description": "#5CF3DD"
+      },
+      "health030": {
+        "$type": "color",
+        "$value": "#00D6C0",
+        "$description": "#00D6C0"
+      },
+      "health040": {
+        "$type": "color",
+        "$value": "#00BAA7",
+        "$description": "#00BAA7"
+      },
+      "health050": {
+        "$type": "color",
+        "$value": "#00A08F",
+        "$description": "#00A08F"
+      },
+      "health060": {
+        "$type": "color",
+        "$value": "#008577",
+        "$description": "#008577"
+      },
+      "health070": {
+        "$type": "color",
+        "$value": "#006559",
+        "$description": "#006559"
+      },
+      "health080": {
+        "$type": "color",
+        "$value": "#00473F",
+        "$description": "#00473F"
+      },
+      "health090": {
+        "$type": "color",
+        "$value": "#003730",
+        "$description": "#003730"
+      },
+      "health100": {
+        "$type": "color",
+        "$value": "#001D19",
+        "$description": "#001D19"
+      },
+      "lifestyle010": {
+        "$type": "color",
+        "$value": "#FBF2E4",
+        "$description": "#FBF2E4"
+      },
+      "lifestyle020": {
+        "$type": "color",
+        "$value": "#F4DAA3",
+        "$description": "#F4DAA3"
+      },
+      "lifestyle030": {
+        "$type": "color",
+        "$value": "#DBBC71",
+        "$description": "#DBBC71"
+      },
+      "lifestyle040": {
+        "$type": "color",
+        "$value": "#BEA362",
+        "$description": "#BEA362"
+      },
+      "lifestyle050": {
+        "$type": "color",
+        "$value": "#A38B53",
+        "$description": "#A38B53"
+      },
+      "lifestyle060": {
+        "$type": "color",
+        "$value": "#897444",
+        "$description": "#897444"
+      },
+      "lifestyle070": {
+        "$type": "color",
+        "$value": "#675732",
+        "$description": "#675732"
+      },
+      "lifestyle080": {
+        "$type": "color",
+        "$value": "#4A3E22",
+        "$description": "#4A3E22"
+      },
+      "lifestyle090": {
+        "$type": "color",
+        "$value": "#302814",
+        "$description": "#302814"
+      },
+      "lifestyle100": {
+        "$type": "color",
+        "$value": "#1E180A",
+        "$description": "#1E180A"
+      },
+      "money010": {
+        "$type": "color",
+        "$value": "#F9F2F5",
+        "$description": "#F9F2F5"
+      },
+      "money020": {
+        "$type": "color",
+        "$value": "#ECD7E1",
+        "$description": "#ECD7E1"
+      },
+      "money030": {
+        "$type": "color",
+        "$value": "#DBB3C6",
+        "$description": "#DBB3C6"
+      },
+      "money040": {
+        "$type": "color",
+        "$value": "#CD96AF",
+        "$description": "#CD96AF"
+      },
+      "money050": {
+        "$type": "color",
+        "$value": "#BF7998",
+        "$description": "#BF7998"
+      },
+      "money060": {
+        "$type": "color",
+        "$value": "#B65680",
+        "$description": "#B65680"
+      },
+      "money070": {
+        "$type": "color",
+        "$value": "#913B61",
+        "$description": "#913B61"
+      },
+      "money080": {
+        "$type": "color",
+        "$value": "#672A46",
+        "$description": "#672A46"
+      },
+      "money090": {
+        "$type": "color",
+        "$value": "#4F2035",
+        "$description": "#4F2035"
+      },
+      "money100": {
+        "$type": "color",
+        "$value": "#2A111C",
+        "$description": "#2A111C"
+      },
+      "motors010": {
+        "$type": "color",
+        "$value": "#F1F3FB",
+        "$description": "#F1F3FB"
+      },
+      "motors020": {
+        "$type": "color",
+        "$value": "#D7DCF3",
+        "$description": "#D7DCF3"
+      },
+      "motors030": {
+        "$type": "color",
+        "$value": "#B3BDEA",
+        "$description": "#B3BDEA"
+      },
+      "motors040": {
+        "$type": "color",
+        "$value": "#95A3E2",
+        "$description": "#95A3E2"
+      },
+      "motors050": {
+        "$type": "color",
+        "$value": "#7789DA",
+        "$description": "#7789DA"
+      },
+      "motors060": {
+        "$type": "color",
+        "$value": "#5B6FD3",
+        "$description": "#5B6FD3"
+      },
+      "motors070": {
+        "$type": "color",
+        "$value": "#3F52A9",
+        "$description": "#3F52A9"
+      },
+      "motors080": {
+        "$type": "color",
+        "$value": "#2C3A77",
+        "$description": "#2C3A77"
+      },
+      "motors090": {
+        "$type": "color",
+        "$value": "#222C5C",
+        "$description": "#222C5C"
+      },
+      "motors100": {
+        "$type": "color",
+        "$value": "#121830",
+        "$description": "#121830"
+      },
+      "news010": {
+        "$type": "color",
+        "$value": "#EEF3FA",
+        "$description": "#EEF3FA"
+      },
+      "news020": {
+        "$type": "color",
+        "$value": "#CDDFF1",
+        "$description": "#CDDFF1"
+      },
+      "news030": {
+        "$type": "color",
+        "$value": "#A0C3E5",
+        "$description": "#A0C3E5"
+      },
+      "news040": {
+        "$type": "color",
+        "$value": "#79AADB",
+        "$description": "#79AADB"
+      },
+      "news050": {
+        "$type": "color",
+        "$value": "#5392D0",
+        "$description": "#5392D0"
+      },
+      "news060": {
+        "$type": "color",
+        "$value": "#3A79BB",
+        "$description": "#3A79BB"
+      },
+      "news070": {
+        "$type": "color",
+        "$value": "#2B5C8C",
+        "$description": "#2B5C8C"
+      },
+      "news080": {
+        "$type": "color",
+        "$value": "#1F4163",
+        "$description": "#1F4163"
+      },
+      "news090": {
+        "$type": "color",
+        "$value": "#18314C",
+        "$description": "#18314C"
+      },
+      "news100": {
+        "$type": "color",
+        "$value": "#0C1A28",
+        "$description": "#0C1A28"
+      },
+      "showbiz010": {
+        "$type": "color",
+        "$value": "#F6F2F9",
+        "$description": "#F6F2F9"
+      },
+      "showbiz020": {
+        "$type": "color",
+        "$value": "#E3D9EE",
+        "$description": "#E3D9EE"
+      },
+      "showbiz030": {
+        "$type": "color",
+        "$value": "#CCB7DF",
+        "$description": "#CCB7DF"
+      },
+      "showbiz040": {
+        "$type": "color",
+        "$value": "#B89AD2",
+        "$description": "#B89AD2"
+      },
+      "showbiz050": {
+        "$type": "color",
+        "$value": "#A37EC6",
+        "$description": "#A37EC6"
+      },
+      "showbiz060": {
+        "$type": "color",
+        "$value": "#8A69A9",
+        "$description": "#8A69A9"
+      },
+      "showbiz070": {
+        "$type": "color",
+        "$value": "#694D82",
+        "$description": "#694D82"
+      },
+      "showbiz080": {
+        "$type": "color",
+        "$value": "#4A365C",
+        "$description": "#4A365C"
+      },
+      "showbiz090": {
+        "$type": "color",
+        "$value": "#392A47",
+        "$description": "#392A47"
+      },
+      "showbiz100": {
+        "$type": "color",
+        "$value": "#1D1625",
+        "$description": "#1D1625"
+      },
+      "sport010": {
+        "$type": "color",
+        "$value": "#ECF5F7",
+        "$description": "#ECF5F7"
+      },
+      "sport020": {
+        "$type": "color",
+        "$value": "#C7E2E6",
+        "$description": "#C7E2E6"
+      },
+      "sport030": {
+        "$type": "color",
+        "$value": "#95C7D0",
+        "$description": "#95C7D0"
+      },
+      "sport040": {
+        "$type": "color",
+        "$value": "#69B1BD",
+        "$description": "#69B1BD"
+      },
+      "sport050": {
+        "$type": "color",
+        "$value": "#3F9AAA",
+        "$description": "#3F9AAA"
+      },
+      "sport060": {
+        "$type": "color",
+        "$value": "#258191",
+        "$description": "#258191"
+      },
+      "sport070": {
+        "$type": "color",
+        "$value": "#22616C",
+        "$description": "#22616C"
+      },
+      "sport080": {
+        "$type": "color",
+        "$value": "#19444D",
+        "$description": "#19444D"
+      },
+      "sport090": {
+        "$type": "color",
+        "$value": "#13343B",
+        "$description": "#13343B"
+      },
+      "sport100": {
+        "$type": "color",
+        "$value": "#0A1B1F",
+        "$description": "#0A1B1F"
+      },
+      "sun010": {
+        "$type": "color",
+        "$value": "#FFF0F0",
+        "$description": "#FFF0F0"
+      },
+      "sun020": {
+        "$type": "color",
+        "$value": "#FFD2D2",
+        "$description": "#FFD2D2"
+      },
+      "sun030": {
+        "$type": "color",
+        "$value": "#FFA8A8",
+        "$description": "#FFA8A8"
+      },
+      "sun040": {
+        "$type": "color",
+        "$value": "#FF7F80",
+        "$description": "#FF7F80"
+      },
+      "sun050": {
+        "$type": "color",
+        "$value": "#FF4C4D",
+        "$description": "#FF4C4D"
+      },
+      "sun060": {
+        "$type": "color",
+        "$value": "#EB1701",
+        "$description": "#EB1701"
+      },
+      "sun070": {
+        "$type": "color",
+        "$value": "#B31201",
+        "$description": "#B31201"
+      },
+      "sun080": {
+        "$type": "color",
+        "$value": "#820C01",
+        "$description": "#820C01"
+      },
+      "sun090": {
+        "$type": "color",
+        "$value": "#650A00",
+        "$description": "#650A00"
+      },
+      "sun100": {
+        "$type": "color",
+        "$value": "#390500",
+        "$description": "#390500"
+      },
+      "tech010": {
+        "$type": "color",
+        "$value": "#F1F3F8",
+        "$description": "#F1F3F8"
+      },
+      "tech020": {
+        "$type": "color",
+        "$value": "#D3DEEB",
+        "$description": "#D3DEEB"
+      },
+      "tech030": {
+        "$type": "color",
+        "$value": "#AEC1DA",
+        "$description": "#AEC1DA"
+      },
+      "tech040": {
+        "$type": "color",
+        "$value": "#8EA8CB",
+        "$description": "#8EA8CB"
+      },
+      "tech050": {
+        "$type": "color",
+        "$value": "#7790B0",
+        "$description": "#7790B0"
+      },
+      "tech060": {
+        "$type": "color",
+        "$value": "#627895",
+        "$description": "#627895"
+      },
+      "tech070": {
+        "$type": "color",
+        "$value": "#4A596E",
+        "$description": "#4A596E"
+      },
+      "tech080": {
+        "$type": "color",
+        "$value": "#343F4F",
+        "$description": "#343F4F"
+      },
+      "tech090": {
+        "$type": "color",
+        "$value": "#29303B",
+        "$description": "#29303B"
+      },
+      "tech100": {
+        "$type": "color",
+        "$value": "#161A20",
+        "$description": "#161A20"
+      },
+      "travel010": {
+        "$type": "color",
+        "$value": "#E1F7FF",
+        "$description": "#E1F7FF"
+      },
+      "travel020": {
+        "$type": "color",
+        "$value": "#A0E7FF",
+        "$description": "#A0E7FF"
+      },
+      "travel030": {
+        "$type": "color",
+        "$value": "#3ACDFF",
+        "$description": "#3ACDFF"
+      },
+      "travel040": {
+        "$type": "color",
+        "$value": "#00B2EE",
+        "$description": "#00B2EE"
+      },
+      "travel050": {
+        "$type": "color",
+        "$value": "#0099CC",
+        "$description": "#0099CC"
+      },
+      "travel060": {
+        "$type": "color",
+        "$value": "#007FAB",
+        "$description": "#007FAB"
+      },
+      "travel070": {
+        "$type": "color",
+        "$value": "#006081",
+        "$description": "#006081"
+      },
+      "travel080": {
+        "$type": "color",
+        "$value": "#00445C",
+        "$description": "#00445C"
+      },
+      "travel090": {
+        "$type": "color",
+        "$value": "#003447",
+        "$description": "#003447"
+      },
+      "travel100": {
+        "$type": "color",
+        "$value": "#001C26",
+        "$description": "#001C26"
+      },
+      "tv010": {
+        "$type": "color",
+        "$value": "#FCEFFF",
+        "$description": "#FCEFFF"
+      },
+      "tv020": {
+        "$type": "color",
+        "$value": "#F5CDFF",
+        "$description": "#F5CDFF"
+      },
+      "tv030": {
+        "$type": "color",
+        "$value": "#E7A9F6",
+        "$description": "#E7A9F6"
+      },
+      "tv040": {
+        "$type": "color",
+        "$value": "#DD84EF",
+        "$description": "#DD84EF"
+      },
+      "tv050": {
+        "$type": "color",
+        "$value": "#C454D9",
+        "$description": "#C454D9"
+      },
+      "tv060": {
+        "$type": "color",
+        "$value": "#B840CC",
+        "$description": "#B840CC"
+      },
+      "tv070": {
+        "$type": "color",
+        "$value": "#8C2A9C",
+        "$description": "#8C2A9C"
+      },
+      "tv080": {
+        "$type": "color",
+        "$value": "#661E72",
+        "$description": "#661E72"
+      },
+      "tv090": {
+        "$type": "color",
+        "$value": "#2B0631",
+        "$description": "#2B0631"
+      },
+      "tv100": {
+        "$type": "color",
+        "$value": "#210026",
+        "$description": "#210026"
+      }
+    }
+  },
+  "Primary Colours": {
+    "Primary Blue Buttons": {
+      "$type": "color",
+      "$value": "#4A77F8",
+      "$description": "Main colour used across the site, including Active CTA's"
+    },
+    "Primary Icons & Text": {
+      "$type": "color",
+      "$value": "#FFFFFF"
+    }
+  },
+  "Secondary Colours": {
+    "Secondary Buttons": {
+      "$type": "color",
+      "$value": "#1D1B20"
+    }
+  },
+  "Shadow": {
+    "Dark": {
+      "Shadow-01": {
+        "$type": "shadow",
+        "$value": {
+          "blur": "4px",
+          "color": "#0000003D",
+          "spread": "0px",
+          "offsetX": "0px",
+          "offsetY": "2px"
+        }
+      },
+      "Shadow-02": {
+        "$type": "shadow",
+        "$value": {
+          "blur": "8px",
+          "color": "#0000003D",
+          "spread": "0px",
+          "offsetX": "0px",
+          "offsetY": "3px"
+        }
+      },
+      "Shadow-03": {
+        "$type": "shadow",
+        "$value": {
+          "blur": "12px",
+          "color": "#0000003D",
+          "spread": "0px",
+          "offsetX": "0px",
+          "offsetY": "4px"
+        }
+      }
+    },
+    "Light": {
+      "Shadow-01": {
+        "$type": "shadow",
+        "$value": {
+          "blur": "4px",
+          "color": "#0000001F",
+          "spread": "0px",
+          "offsetX": "0px",
+          "offsetY": "2px"
+        }
+      },
+      "Shadow-02": {
+        "$type": "shadow",
+        "$value": {
+          "blur": "8px",
+          "color": "#0000001F",
+          "spread": "0px",
+          "offsetX": "0px",
+          "offsetY": "3px"
+        }
+      },
+      "Shadow-03": {
+        "$type": "shadow",
+        "$value": {
+          "blur": "12px",
+          "color": "#0000001F",
+          "spread": "0px",
+          "offsetX": "0px",
+          "offsetY": "4px"
+        }
+      }
+    }
+  },
+  "Typography": {
+    "H2": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "47px",
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "lineHeight": 1.23,
+        "letterSpacing": "0px"
+      }
+    },
+    "H3": {
+      "$type": "typography",
+      "$value": {
+        "fontSize": "33px",
+        "fontFamily": "Inter",
+        "fontWeight": 700,
+        "lineHeight": 1.21,
+        "letterSpacing": "0px"
+      }
+    }
+  },
+  "shadow060": {
+    "$type": "shadow",
+    "$value": {
+      "blur": "32px",
+      "color": "#0A0A0A14",
+      "spread": "0px",
+      "offsetX": "0px",
+      "offsetY": "20px"
+    }
+  }
+}

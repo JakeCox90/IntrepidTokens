@@ -5,41 +5,41 @@ public extension Text {
 
     // Typography
 
+    func textStyleTypographyDisplay01() -> some View {
+        return self
+            .font(Font.custom("Inter-700", size: 48))
+            .textCase(.uppercase) 
+    }
+
     /// Huge headlines
-    func textStyleTypographyH1() -> some View {
+    func textStyleTypographyHeadng01() -> some View {
         return self
             .font(Font.custom("Inter-700", size: 68))
     }
 
-    func textStyleTypographyH2() -> some View {
+    func textStyleTypographyHeading02() -> some View {
         return self
             .font(Font.custom("Inter-700", size: 47))
     }
 
-    func textStyleTypographyH3() -> some View {
+    func textStyleTypographyHeading03() -> some View {
         return self
             .font(Font.custom("Inter-700", size: 33))
     }
 
-    func textStyleTypographyH4() -> some View {
+    func textStyleTypographyHeading04() -> some View {
         return self
             .font(Font.custom("Inter-700", size: 24))
     }
 
-    func textStyleTypographyH5() -> some View {
+    func textStyleTypographyHeading05() -> some View {
         return self
             .font(Font.custom("Inter-700", size: 20))
     }
 
-    func textStyleTypographyH6() -> some View {
+    func textStyleTypographyHeading06() -> some View {
         return self
             .font(Font.custom("Inter-700", size: 16))
-    }
-
-    func textStyleTypographyLabel() -> some View {
-        return self
-            .font(Font.custom("Inter-700", size: 14))
-            .textCase(.uppercase) 
     }
 
     func textStyleTypographySubtitle01() -> some View {
@@ -62,33 +62,51 @@ public extension Text {
             .font(Font.custom("Inter-400", size: 14))
     }
 
-    func textStyleTypographyButton() -> some View {
+    func textStyleTypographyLabelOverline() -> some View {
+        return self
+            .font(Font.custom("Inter-700", size: 14))
+            .textCase(.uppercase) 
+    }
+
+    func textStyleTypographyLabelButton() -> some View {
         return self
             .font(Font.custom("Inter-600", size: 14))
     }
 
-    func textStyleTypographyCaption() -> some View {
+    func textStyleTypographyMetaCaption() -> some View {
         return self
             .font(Font.custom("Inter-400", size: 14))
     }
 
-    func textStyleTypographyAnnotation() -> some View {
+    func textStyleTypographyMetaAnnotation() -> some View {
         return self
             .font(Font.custom("Inter-600", size: 12))
     }
 
-    func textStyleTypographyHelper() -> some View {
+    func textStyleTypographyFormLabel() -> some View {
+        return self
+            .font(Font.custom("Inter-400", size: 12))
+    }
+
+    func textStyleTypographyFormBody() -> some View {
         return self
             .font(Font.custom("Inter-400", size: 14))
     }
 
-    func textStyleTypographyInputLabel() -> some View {
-        return self
-            .font(Font.custom("Inter-400", size: 10))
-    }
-
-    func textStyleTypographyInputText() -> some View {
+    func textStyleTypographyFormHelper() -> some View {
         return self
             .font(Font.custom("Inter-400", size: 14))
+    }
+
+    func textStyleTypographyDisplay02() -> some View {
+        return self
+            .font(Font.custom("Inter-700", size: 32))
+            .textCase(.uppercase) 
+    }
+
+    func textStyleTypographyDisplay03() -> some View {
+        return self
+            .font(Font.custom("Inter-700", size: 28))
+            .textCase(.uppercase) 
     }
 }

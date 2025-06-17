@@ -7,37 +7,37 @@ public extension View {
 
     // Dark
 
-    func shadowShadowDarkShadow01() -> some View {
-        return self.shadow(color: Color(.sRGB, red: 0/255, green: 0/255, blue: 0/255, opacity: 0.24), radius: 4, x: 0, y: 2) 
+    func shadowShadowDarkHigh() -> some View {
+        return self.shadow(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.2), radius: 12, x: 0, y: 4) 
     }
 
-    func shadowShadowDarkShadow02() -> some View {
-        return self.shadow(color: Color(.sRGB, red: 0/255, green: 0/255, blue: 0/255, opacity: 0.24), radius: 8, x: 0, y: 3) 
+    func shadowShadowDarkHigh2() -> some View {
+        return self.shadow(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.2), radius: 4, x: 0, y: 4) 
     }
 
-    func shadowShadowDarkShadow03() -> some View {
-        return self.shadow(color: Color(.sRGB, red: 0/255, green: 0/255, blue: 0/255, opacity: 0.24), radius: 12, x: 0, y: 4) 
+    func shadowShadowDarkMedium() -> some View {
+        return self.shadow(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.2), radius: 8, x: 0, y: 3) 
     }
 
-    func shadowShadowDarkShadow032() -> some View {
-        return self.shadow(color: Color(.sRGB, red: 0/255, green: 0/255, blue: 0/255, opacity: 0.16), radius: 4, x: 0, y: 4) 
+    func shadowShadowDarkLow() -> some View {
+        return self.shadow(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.2), radius: 4, x: 0, y: 2) 
     }
 
     // Light
 
-    func shadowShadowLightShadow03() -> some View {
-        return self.shadow(color: Color(.sRGB, red: 0/255, green: 0/255, blue: 0/255, opacity: 0.12), radius: 12, x: 0, y: 4) 
+    func shadowShadowLightHigh() -> some View {
+        return self.shadow(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.1), radius: 12, x: 0, y: 4) 
     }
 
-    func shadowShadowLightShadow032() -> some View {
-        return self.shadow(color: Color(.sRGB, red: 0/255, green: 0/255, blue: 0/255, opacity: 0.08), radius: 4, x: 0, y: 4) 
+    func shadowShadowLightHigh2() -> some View {
+        return self.shadow(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.1), radius: 4, x: 0, y: 4) 
     }
 
-    func shadowShadowLightShadow02() -> some View {
-        return self.shadow(color: Color(.sRGB, red: 0/255, green: 0/255, blue: 0/255, opacity: 0.12), radius: 8, x: 0, y: 3) 
+    func shadowShadowLightMedium() -> some View {
+        return self.shadow(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.1), radius: 8, x: 0, y: 3) 
     }
 
-    func shadowShadowLightShadow01() -> some View {
-        return self.shadow(color: Color(.sRGB, red: 0/255, green: 0/255, blue: 0/255, opacity: 0.12), radius: 4, x: 0, y: 2) 
+    func shadowShadowLightLow() -> some View {
+        return self.shadow(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.1), radius: 4, x: 0, y: 2) 
     }
 }

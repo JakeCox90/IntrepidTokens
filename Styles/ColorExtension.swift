@@ -6,24 +6,10 @@ public extension Color {
     static let Token = Color.TokenColor()
     
     struct TokenColor {
-        public let resting = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
-        public let pressed = Color(.sRGB, red: 59/255, green: 98/255, blue: 208/255, opacity: 1) 
-        public let selected = Color(.sRGB, red: 20/255, green: 36/255, blue: 82/255, opacity: 1) 
+        public let resting = Color(.sRGB, red: 58/255, green: 121/255, blue: 187/255, opacity: 1) 
+        public let pressed = Color(.sRGB, red: 43/255, green: 92/255, blue: 140/255, opacity: 1) 
+        public let selected = Color(.sRGB, red: 12/255, green: 26/255, blue: 40/255, opacity: 1) 
         public let disabled = Color(.sRGB, red: 243/255, green: 243/255, blue: 243/255, opacity: 1) 
-
-        // Section
-
-        // Light
-        public let sectionLightResting = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
-        public let sectionLightPressed = Color(.sRGB, red: 59/255, green: 98/255, blue: 208/255, opacity: 1) 
-        public let sectionLightSelected = Color(.sRGB, red: 20/255, green: 36/255, blue: 82/255, opacity: 1) 
-        public let sectionLightDisabled = Color(.sRGB, red: 243/255, green: 243/255, blue: 243/255, opacity: 1) 
-
-        // Dark
-        public let sectionDarkResting = Color(.sRGB, red: 118/255, green: 149/255, blue: 239/255, opacity: 1) 
-        public let sectionDarkPressed = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
-        public let sectionDarkSelected = Color(.sRGB, red: 45/255, green: 77/255, blue: 168/255, opacity: 1) 
-        public let sectionDarkDisabled = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.2) 
 
         // Colour
 
@@ -455,5 +441,19 @@ public extension Color {
         public let paletteWhiteTint20 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.2) 
         public let paletteWhiteTint10 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.1) 
         public let paletteWhiteTint0 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0) 
+
+        // Section
+
+        // Light
+        public let sectionLightResting = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
+        public let sectionLightPressed = Color(.sRGB, red: 59/255, green: 98/255, blue: 208/255, opacity: 1) 
+        public let sectionLightSelected = Color(.sRGB, red: 20/255, green: 36/255, blue: 82/255, opacity: 1) 
+        public let sectionLightDisabled = Color(.sRGB, red: 243/255, green: 243/255, blue: 243/255, opacity: 1) 
+
+        // Dark
+        public let sectionDarkResting = Color(.sRGB, red: 118/255, green: 149/255, blue: 239/255, opacity: 1) 
+        public let sectionDarkPressed = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
+        public let sectionDarkSelected = Color(.sRGB, red: 45/255, green: 77/255, blue: 168/255, opacity: 1) 
+        public let sectionDarkDisabled = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.2) 
     }
 }

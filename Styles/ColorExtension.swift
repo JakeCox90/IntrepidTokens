@@ -6,6 +6,116 @@ public extension Color {
     static let Token = Color.TokenColor()
     
     struct TokenColor {
+        public let resting = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
+        public let pressed = Color(.sRGB, red: 59/255, green: 98/255, blue: 208/255, opacity: 1) 
+        public let selected = Color(.sRGB, red: 20/255, green: 36/255, blue: 82/255, opacity: 1) 
+        public let disabled = Color(.sRGB, red: 243/255, green: 243/255, blue: 243/255, opacity: 1) 
+
+        // Colour
+
+        // Primary
+        public let colourPrimaryResting = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
+        public let colourPrimaryPressed = Color(.sRGB, red: 45/255, green: 77/255, blue: 168/255, opacity: 1) 
+        public let colourPrimarySelected = Color(.sRGB, red: 20/255, green: 36/255, blue: 82/255, opacity: 1) 
+        public let colourPrimaryDisabled = Color(.sRGB, red: 227/255, green: 227/255, blue: 227/255, opacity: 1) 
+
+        // Secondary
+        public let colourSecondaryResting = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.1) 
+        public let colourSecondaryPressed = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.2) 
+        public let colourSecondarySelected = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 1) 
+        public let colourSecondaryDisabled = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.1) 
+
+        // Section
+        public let colourSection10 = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
+        public let colourSection20 = Color(.sRGB, red: 234/255, green: 0/255, blue: 94/255, opacity: 1) 
+        public let colourSection30 = Color(.sRGB, red: 0/255, green: 133/255, blue: 119/255, opacity: 1) 
+        public let colourSection40 = Color(.sRGB, red: 147/255, green: 121/255, blue: 255/255, opacity: 1) 
+        public let colourSection50 = Color(.sRGB, red: 91/255, green: 111/255, blue: 211/255, opacity: 1) 
+        public let colourSection60 = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
+        public let colourSection70 = Color(.sRGB, red: 147/255, green: 121/255, blue: 255/255, opacity: 1) 
+        public let colourSection80 = Color(.sRGB, red: 184/255, green: 64/255, blue: 204/255, opacity: 1) 
+        public let colourSection90 = Color(.sRGB, red: 86/255, green: 204/255, blue: 138/255, opacity: 1) 
+        public let colourSection100 = Color(.sRGB, red: 255/255, green: 73/255, blue: 75/255, opacity: 1) 
+        public let colourSection110 = Color(.sRGB, red: 0/255, green: 160/255, blue: 143/255, opacity: 1) 
+        public let colourSection120 = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
+        public let colourSection130 = Color(.sRGB, red: 0/255, green: 160/255, blue: 143/255, opacity: 1) 
+        public let colourSection140 = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
+        public let colourSection150 = Color(.sRGB, red: 234/255, green: 0/255, blue: 94/255, opacity: 1) 
+        public let colourSection160 = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
+        public let colourSection170 = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
+        public let colourSection180 = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
+        public let colourSection190 = Color(.sRGB, red: 255/255, green: 123/255, blue: 125/255, opacity: 1) 
+        public let colourSectionResting = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
+        public let colourSectionPressed = Color(.sRGB, red: 59/255, green: 98/255, blue: 208/255, opacity: 1) 
+        public let colourSectionSelected = Color(.sRGB, red: 20/255, green: 36/255, blue: 82/255, opacity: 1) 
+        public let colourSectionDisabled = Color(.sRGB, red: 243/255, green: 243/255, blue: 243/255, opacity: 1) 
+
+        // Text
+        public let colourTextPrimary = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 1) 
+        public let colourTextSecondary = Color(.sRGB, red: 135/255, green: 135/255, blue: 135/255, opacity: 1) 
+        public let colourTextContrast = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+        public let colourTextDisabled = Color(.sRGB, red: 184/255, green: 184/255, blue: 184/255, opacity: 1) 
+        public let colourTextColor = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+
+        // Link
+        public let colourLinkResting = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 1) 
+        public let colourLinkPressed = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.4) 
+        public let colourLinkDisabled = Color(.sRGB, red: 184/255, green: 184/255, blue: 184/255, opacity: 1) 
+
+        // Border
+        public let colourBorderDefault = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.1) 
+        public let colourBorderStrong = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.4) 
+
+        // Surface
+        public let colourSurfaceHighlight = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+        public let colourSurfaceContainer = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+        public let colourSurfacePage = Color(.sRGB, red: 243/255, green: 243/255, blue: 243/255, opacity: 1) 
+        public let colourSurfaceDisabled = Color(.sRGB, red: 227/255, green: 227/255, blue: 227/255, opacity: 1) 
+
+        // Overlay
+        public let colourSurfaceOverlayDefault = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.2) 
+        public let colourSurfaceOverlayStrong = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.7) 
+
+        // Skeleton
+        public let colourSurfaceSkeletonDefault = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.2) 
+        public let colourSurfaceSkeletonStrong = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.3) 
+
+        // Status
+
+        // Error
+        public let colourStatusErrorResting = Color(.sRGB, red: 255/255, green: 73/255, blue: 75/255, opacity: 1) 
+        public let colourStatusErrorPressed = Color(.sRGB, red: 212/255, green: 58/255, blue: 60/255, opacity: 1) 
+        public let colourStatusErrorDisabled = Color(.sRGB, red: 255/255, green: 235/255, blue: 235/255, opacity: 1) 
+        public let colourStatusErrorText = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+        public let colourStatusErrorBorder = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.3) 
+
+        // Info
+        public let colourStatusInfoResting = Color(.sRGB, red: 91/255, green: 111/255, blue: 211/255, opacity: 1) 
+        public let colourStatusInfoPressed = Color(.sRGB, red: 44/255, green: 58/255, blue: 119/255, opacity: 1) 
+        public let colourStatusInfoDisabled = Color(.sRGB, red: 222/255, green: 227/255, blue: 240/255, opacity: 1) 
+        public let colourStatusInfoText = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+        public let colourStatusInfoBorder = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.3) 
+
+        // Success
+        public let colourStatusSuccessResting = Color(.sRGB, red: 86/255, green: 204/255, blue: 138/255, opacity: 1) 
+        public let colourStatusSuccessPressed = Color(.sRGB, red: 54/255, green: 137/255, blue: 91/255, opacity: 1) 
+        public let colourStatusSuccessDisabled = Color(.sRGB, red: 221/255, green: 233/255, blue: 226/255, opacity: 1) 
+        public let colourStatusSuccessText = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+        public let colourStatusSuccessBorder = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.3) 
+
+        // Warning
+        public let colourStatusWarningResting = Color(.sRGB, red: 230/255, green: 126/255, blue: 35/255, opacity: 1) 
+        public let colourStatusWarningPressed = Color(.sRGB, red: 168/255, green: 92/255, blue: 25/255, opacity: 1) 
+        public let colourStatusWarningDisabled = Color(.sRGB, red: 228/255, green: 206/255, blue: 186/255, opacity: 1) 
+        public let colourStatusWarningText = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+        public let colourStatusWarningBorder = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.3) 
+
+        // Breaking
+        public let colourStatusBreakingResting = Color(.sRGB, red: 212/255, green: 58/255, blue: 60/255, opacity: 1) 
+        public let colourStatusBreakingPressed = Color(.sRGB, red: 168/255, green: 44/255, blue: 45/255, opacity: 1) 
+        public let colourStatusBreakingDisabled = Color(.sRGB, red: 255/255, green: 235/255, blue: 235/255, opacity: 1) 
+        public let colourStatusBreakingText = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+        public let colourStatusBreakingBorder = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.3) 
 
         // Palette
 
@@ -81,31 +191,6 @@ public extension Color {
         public let paletteYellow20 = Color(.sRGB, red: 255/255, green: 246/255, blue: 203/255, opacity: 1) 
         public let paletteYellow10 = Color(.sRGB, red: 255/255, green: 252/255, blue: 236/255, opacity: 1) 
 
-        // Indigo
-        public let paletteIndigo100 = Color(.sRGB, red: 18/255, green: 24/255, blue: 48/255, opacity: 1) 
-        public let paletteIndigo90 = Color(.sRGB, red: 34/255, green: 44/255, blue: 92/255, opacity: 1) 
-        public let paletteIndigo80 = Color(.sRGB, red: 44/255, green: 58/255, blue: 119/255, opacity: 1) 
-        public let paletteIndigo70 = Color(.sRGB, red: 63/255, green: 82/255, blue: 169/255, opacity: 1) 
-        public let paletteIndigo60 = Color(.sRGB, red: 91/255, green: 111/255, blue: 211/255, opacity: 1) 
-        public let paletteIndigo50 = Color(.sRGB, red: 119/255, green: 137/255, blue: 218/255, opacity: 1) 
-        public let paletteIndigo40 = Color(.sRGB, red: 149/255, green: 163/255, blue: 226/255, opacity: 1) 
-        public let paletteIndigo30 = Color(.sRGB, red: 179/255, green: 189/255, blue: 234/255, opacity: 1) 
-        public let paletteIndigo20 = Color(.sRGB, red: 215/255, green: 220/255, blue: 243/255, opacity: 1) 
-        public let paletteIndigo10 = Color(.sRGB, red: 241/255, green: 243/255, blue: 251/255, opacity: 1) 
-
-        // White-Tint
-        public let paletteWhiteTint100 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
-        public let paletteWhiteTint90 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.9) 
-        public let paletteWhiteTint80 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.8) 
-        public let paletteWhiteTint70 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.7) 
-        public let paletteWhiteTint60 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.6) 
-        public let paletteWhiteTint50 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.5) 
-        public let paletteWhiteTint40 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.4) 
-        public let paletteWhiteTint30 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.3) 
-        public let paletteWhiteTint20 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.2) 
-        public let paletteWhiteTint10 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.1) 
-        public let paletteWhiteTint0 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0) 
-
         // Amber
         public let paletteAmber100 = Color(.sRGB, red: 105/255, green: 58/255, blue: 16/255, opacity: 1) 
         public let paletteAmber90 = Color(.sRGB, red: 137/255, green: 75/255, blue: 21/255, opacity: 1) 
@@ -142,17 +227,29 @@ public extension Color {
         public let palettePink20 = Color(.sRGB, red: 255/255, green: 208/255, blue: 227/255, opacity: 1) 
         public let palettePink10 = Color(.sRGB, red: 255/255, green: 240/255, blue: 246/255, opacity: 1) 
 
-        // Light Blue
-        public let paletteLightBlue100 = Color(.sRGB, red: 22/255, green: 26/255, blue: 32/255, opacity: 1) 
-        public let paletteLightBlue90 = Color(.sRGB, red: 41/255, green: 48/255, blue: 59/255, opacity: 1) 
-        public let paletteLightBlue80 = Color(.sRGB, red: 52/255, green: 63/255, blue: 79/255, opacity: 1) 
-        public let paletteLightBlue70 = Color(.sRGB, red: 74/255, green: 89/255, blue: 110/255, opacity: 1) 
-        public let paletteLightBlue60 = Color(.sRGB, red: 98/255, green: 120/255, blue: 149/255, opacity: 1) 
-        public let paletteLightBlue50 = Color(.sRGB, red: 119/255, green: 144/255, blue: 176/255, opacity: 1) 
-        public let paletteLightBlue40 = Color(.sRGB, red: 142/255, green: 168/255, blue: 203/255, opacity: 1) 
-        public let paletteLightBlue30 = Color(.sRGB, red: 174/255, green: 193/255, blue: 218/255, opacity: 1) 
-        public let paletteLightBlue20 = Color(.sRGB, red: 211/255, green: 222/255, blue: 235/255, opacity: 1) 
-        public let paletteLightBlue10 = Color(.sRGB, red: 241/255, green: 243/255, blue: 248/255, opacity: 1) 
+        // Mauve
+        public let paletteMauve100 = Color(.sRGB, red: 42/255, green: 17/255, blue: 28/255, opacity: 1) 
+        public let paletteMauve90 = Color(.sRGB, red: 79/255, green: 32/255, blue: 53/255, opacity: 1) 
+        public let paletteMauve80 = Color(.sRGB, red: 103/255, green: 42/255, blue: 70/255, opacity: 1) 
+        public let paletteMauve70 = Color(.sRGB, red: 145/255, green: 59/255, blue: 97/255, opacity: 1) 
+        public let paletteMauve60 = Color(.sRGB, red: 182/255, green: 86/255, blue: 128/255, opacity: 1) 
+        public let paletteMauve50 = Color(.sRGB, red: 191/255, green: 121/255, blue: 152/255, opacity: 1) 
+        public let paletteMauve40 = Color(.sRGB, red: 205/255, green: 150/255, blue: 175/255, opacity: 1) 
+        public let paletteMauve30 = Color(.sRGB, red: 219/255, green: 179/255, blue: 198/255, opacity: 1) 
+        public let paletteMauve20 = Color(.sRGB, red: 236/255, green: 215/255, blue: 225/255, opacity: 1) 
+        public let paletteMauve10 = Color(.sRGB, red: 249/255, green: 242/255, blue: 245/255, opacity: 1) 
+
+        // Indigo
+        public let paletteIndigo100 = Color(.sRGB, red: 18/255, green: 24/255, blue: 48/255, opacity: 1) 
+        public let paletteIndigo90 = Color(.sRGB, red: 34/255, green: 44/255, blue: 92/255, opacity: 1) 
+        public let paletteIndigo80 = Color(.sRGB, red: 44/255, green: 58/255, blue: 119/255, opacity: 1) 
+        public let paletteIndigo70 = Color(.sRGB, red: 63/255, green: 82/255, blue: 169/255, opacity: 1) 
+        public let paletteIndigo60 = Color(.sRGB, red: 91/255, green: 111/255, blue: 211/255, opacity: 1) 
+        public let paletteIndigo50 = Color(.sRGB, red: 119/255, green: 137/255, blue: 218/255, opacity: 1) 
+        public let paletteIndigo40 = Color(.sRGB, red: 149/255, green: 163/255, blue: 226/255, opacity: 1) 
+        public let paletteIndigo30 = Color(.sRGB, red: 179/255, green: 189/255, blue: 234/255, opacity: 1) 
+        public let paletteIndigo20 = Color(.sRGB, red: 215/255, green: 220/255, blue: 243/255, opacity: 1) 
+        public let paletteIndigo10 = Color(.sRGB, red: 241/255, green: 243/255, blue: 251/255, opacity: 1) 
 
         // Teal
         public let paletteTeal100 = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 1) 
@@ -177,6 +274,18 @@ public extension Color {
         public let paletteLightPurple30 = Color(.sRGB, red: 231/255, green: 169/255, blue: 246/255, opacity: 1) 
         public let paletteLightPurple20 = Color(.sRGB, red: 245/255, green: 205/255, blue: 255/255, opacity: 1) 
         public let paletteLightPurple10 = Color(.sRGB, red: 252/255, green: 239/255, blue: 255/255, opacity: 1) 
+
+        // Light Blue
+        public let paletteLightBlue100 = Color(.sRGB, red: 22/255, green: 26/255, blue: 32/255, opacity: 1) 
+        public let paletteLightBlue90 = Color(.sRGB, red: 41/255, green: 48/255, blue: 59/255, opacity: 1) 
+        public let paletteLightBlue80 = Color(.sRGB, red: 52/255, green: 63/255, blue: 79/255, opacity: 1) 
+        public let paletteLightBlue70 = Color(.sRGB, red: 74/255, green: 89/255, blue: 110/255, opacity: 1) 
+        public let paletteLightBlue60 = Color(.sRGB, red: 98/255, green: 120/255, blue: 149/255, opacity: 1) 
+        public let paletteLightBlue50 = Color(.sRGB, red: 119/255, green: 144/255, blue: 176/255, opacity: 1) 
+        public let paletteLightBlue40 = Color(.sRGB, red: 142/255, green: 168/255, blue: 203/255, opacity: 1) 
+        public let paletteLightBlue30 = Color(.sRGB, red: 174/255, green: 193/255, blue: 218/255, opacity: 1) 
+        public let paletteLightBlue20 = Color(.sRGB, red: 211/255, green: 222/255, blue: 235/255, opacity: 1) 
+        public let paletteLightBlue10 = Color(.sRGB, red: 241/255, green: 243/255, blue: 248/255, opacity: 1) 
 
         // Light Green
         public let paletteLightGreen100 = Color(.sRGB, red: 0/255, green: 29/255, blue: 25/255, opacity: 1) 
@@ -203,110 +312,31 @@ public extension Color {
         public let paletteBlackTint10 = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.1) 
         public let paletteBlackTint0 = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0) 
 
-        // Mauve
-        public let paletteMauve100 = Color(.sRGB, red: 42/255, green: 17/255, blue: 28/255, opacity: 1) 
-        public let paletteMauve90 = Color(.sRGB, red: 79/255, green: 32/255, blue: 53/255, opacity: 1) 
-        public let paletteMauve80 = Color(.sRGB, red: 103/255, green: 42/255, blue: 70/255, opacity: 1) 
-        public let paletteMauve70 = Color(.sRGB, red: 145/255, green: 59/255, blue: 97/255, opacity: 1) 
-        public let paletteMauve60 = Color(.sRGB, red: 182/255, green: 86/255, blue: 128/255, opacity: 1) 
-        public let paletteMauve50 = Color(.sRGB, red: 191/255, green: 121/255, blue: 152/255, opacity: 1) 
-        public let paletteMauve40 = Color(.sRGB, red: 205/255, green: 150/255, blue: 175/255, opacity: 1) 
-        public let paletteMauve30 = Color(.sRGB, red: 219/255, green: 179/255, blue: 198/255, opacity: 1) 
-        public let paletteMauve20 = Color(.sRGB, red: 236/255, green: 215/255, blue: 225/255, opacity: 1) 
-        public let paletteMauve10 = Color(.sRGB, red: 249/255, green: 242/255, blue: 245/255, opacity: 1) 
-
-        // Colour
-
-        // Primary
-        public let colourPrimaryResting = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
-        public let colourPrimaryPressed = Color(.sRGB, red: 45/255, green: 77/255, blue: 168/255, opacity: 1) 
-        public let colourPrimarySelected = Color(.sRGB, red: 20/255, green: 36/255, blue: 82/255, opacity: 1) 
-        public let colourPrimaryDisabled = Color(.sRGB, red: 227/255, green: 227/255, blue: 227/255, opacity: 1) 
-
-        // Warning
-        public let colourWarningResting = Color(.sRGB, red: 230/255, green: 126/255, blue: 35/255, opacity: 1) 
-        public let colourWarningPressed = Color(.sRGB, red: 168/255, green: 92/255, blue: 25/255, opacity: 1) 
-        public let colourWarningDisabled = Color(.sRGB, red: 228/255, green: 206/255, blue: 186/255, opacity: 1) 
-        public let colourWarningText = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
-        public let colourWarningBorder = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.3) 
-
-        // Secondary
-        public let colourSecondaryResting = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.1) 
-        public let colourSecondaryPressed = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.2) 
-        public let colourSecondarySelected = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 1) 
-        public let colourSecondaryDisabled = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.1) 
-
-        // Text
-        public let colourTextPrimary = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 1) 
-        public let colourTextSecondary = Color(.sRGB, red: 135/255, green: 135/255, blue: 135/255, opacity: 1) 
-        public let colourTextInverse = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
-        public let colourTextDisabled = Color(.sRGB, red: 184/255, green: 184/255, blue: 184/255, opacity: 1) 
-
-        // Link
-        public let colourLinkResting = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 1) 
-        public let colourLinkPressed = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.4) 
-        public let colourLinkDisabled = Color(.sRGB, red: 184/255, green: 184/255, blue: 184/255, opacity: 1) 
-
-        // Border
-        public let colourBorderPrimary = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.1) 
-        public let colourBorderSecondary = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.4) 
-
-        // Surface
-        public let colourSurfaceForeground = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
-        public let colourSurfaceBackground = Color(.sRGB, red: 243/255, green: 243/255, blue: 243/255, opacity: 1) 
-        public let colourSurfaceDisabled = Color(.sRGB, red: 227/255, green: 227/255, blue: 227/255, opacity: 1) 
-        public let colourSurfaceOverlay01 = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.7) 
-        public let colourSurfaceOverlay02 = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.2) 
-        public let colourSurfaceSkeleton01 = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.2) 
-        public let colourSurfaceSkeleton02 = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.3) 
-
-        // Info
-        public let colourInfoResting = Color(.sRGB, red: 91/255, green: 111/255, blue: 211/255, opacity: 1) 
-        public let colourInfoPressed = Color(.sRGB, red: 44/255, green: 58/255, blue: 119/255, opacity: 1) 
-        public let colourInfoDisabled = Color(.sRGB, red: 222/255, green: 227/255, blue: 240/255, opacity: 1) 
-        public let colourInfoText = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
-        public let colourInfoBorder = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.3) 
-
-        // Success
-        public let colourSuccessResting = Color(.sRGB, red: 86/255, green: 204/255, blue: 138/255, opacity: 1) 
-        public let colourSuccessPressed = Color(.sRGB, red: 54/255, green: 137/255, blue: 91/255, opacity: 1) 
-        public let colourSuccessDisabled = Color(.sRGB, red: 221/255, green: 233/255, blue: 226/255, opacity: 1) 
-        public let colourSuccessText = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
-        public let colourSuccessBorder = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.3) 
-
-        // Error
-        public let colourErrorResting = Color(.sRGB, red: 255/255, green: 73/255, blue: 75/255, opacity: 1) 
-        public let colourErrorPressed = Color(.sRGB, red: 212/255, green: 58/255, blue: 60/255, opacity: 1) 
-        public let colourErrorDisabled = Color(.sRGB, red: 255/255, green: 235/255, blue: 235/255, opacity: 1) 
-        public let colourErrorText = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
-        public let colourErrorBorder = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.3) 
-
-        // Breaking
-        public let colourBreakingResting = Color(.sRGB, red: 212/255, green: 58/255, blue: 60/255, opacity: 1) 
-        public let colourBreakingPressed = Color(.sRGB, red: 168/255, green: 44/255, blue: 45/255, opacity: 1) 
-        public let colourBreakingDisabled = Color(.sRGB, red: 255/255, green: 235/255, blue: 235/255, opacity: 1) 
-        public let colourBreakingText = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
-        public let colourBreakingBorder = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.3) 
+        // White-Tint
+        public let paletteWhiteTint100 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+        public let paletteWhiteTint90 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.9) 
+        public let paletteWhiteTint80 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.8) 
+        public let paletteWhiteTint70 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.7) 
+        public let paletteWhiteTint60 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.6) 
+        public let paletteWhiteTint50 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.5) 
+        public let paletteWhiteTint40 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.4) 
+        public let paletteWhiteTint30 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.3) 
+        public let paletteWhiteTint20 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.2) 
+        public let paletteWhiteTint10 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.1) 
+        public let paletteWhiteTint0 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0) 
 
         // Section
-        public let colourSection10 = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
-        public let colourSection20 = Color(.sRGB, red: 234/255, green: 0/255, blue: 94/255, opacity: 1) 
-        public let colourSection30 = Color(.sRGB, red: 0/255, green: 133/255, blue: 119/255, opacity: 1) 
-        public let colourSection40 = Color(.sRGB, red: 147/255, green: 121/255, blue: 255/255, opacity: 1) 
-        public let colourSection50 = Color(.sRGB, red: 91/255, green: 111/255, blue: 211/255, opacity: 1) 
-        public let colourSection60 = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
-        public let colourSection70 = Color(.sRGB, red: 147/255, green: 121/255, blue: 255/255, opacity: 1) 
-        public let colourSection80 = Color(.sRGB, red: 184/255, green: 64/255, blue: 204/255, opacity: 1) 
-        public let colourSection90 = Color(.sRGB, red: 86/255, green: 204/255, blue: 138/255, opacity: 1) 
-        public let colourSection100 = Color(.sRGB, red: 255/255, green: 73/255, blue: 75/255, opacity: 1) 
-        public let colourSection110 = Color(.sRGB, red: 0/255, green: 160/255, blue: 143/255, opacity: 1) 
-        public let colourSection120 = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
-        public let colourSection130 = Color(.sRGB, red: 0/255, green: 160/255, blue: 143/255, opacity: 1) 
-        public let colourSection140 = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
-        public let colourSection150 = Color(.sRGB, red: 234/255, green: 0/255, blue: 94/255, opacity: 1) 
-        public let colourSection160 = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
-        public let colourSection170 = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
-        public let colourSection180 = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
-        public let colourSection190 = Color(.sRGB, red: 255/255, green: 123/255, blue: 125/255, opacity: 1) 
+
+        // Light
+        public let sectionLightResting = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
+        public let sectionLightPressed = Color(.sRGB, red: 59/255, green: 98/255, blue: 208/255, opacity: 1) 
+        public let sectionLightSelected = Color(.sRGB, red: 20/255, green: 36/255, blue: 82/255, opacity: 1) 
+        public let sectionLightDisabled = Color(.sRGB, red: 243/255, green: 243/255, blue: 243/255, opacity: 1) 
+
+        // Dark
+        public let sectionDarkResting = Color(.sRGB, red: 118/255, green: 149/255, blue: 239/255, opacity: 1) 
+        public let sectionDarkPressed = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
+        public let sectionDarkSelected = Color(.sRGB, red: 45/255, green: 77/255, blue: 168/255, opacity: 1) 
+        public let sectionDarkDisabled = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.2) 
     }
 }

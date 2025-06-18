@@ -40,6 +40,20 @@ public struct AppMeasures {
     public static let sizeSizing130 = 160 
 
     // Space
+    public static let space00 = 0 
+    public static let space10 = 4 
+    public static let space20 = 8 
+    public static let space30 = 12 
+    public static let space40 = 16 
+    public static let space50 = 20 
+    public static let space60 = 24 
+    public static let space70 = 32 
+    public static let space80 = 40 
+    public static let space90 = 48 
+    public static let space100 = 64 
+    public static let space110 = 80 
+    public static let space120 = 120 
+    public static let space130 = 160 
 
     // Space
     public static let spaceSpace00 = 0 
@@ -57,6 +71,36 @@ public struct AppMeasures {
     public static let spaceSpace120 = 120 
     public static let spaceSpace130 = 160 
 
+    // Font Size
+
+    // Font Size
+    public static let fontSizeFontSize10 = 12 
+    public static let fontSizeFontSize20 = 14 
+    public static let fontSizeFontSize30 = 16 
+    public static let fontSizeFontSize40 = 18 
+    public static let fontSizeFontSize50 = 20 
+    public static let fontSizeFontSize60 = 24 
+    public static let fontSizeFontSize70 = 28 
+    public static let fontSizeFontSize80 = 32 
+    public static let fontSizeFontSize90 = 40 
+    public static let fontSizeFontSize100 = 48 
+    public static let fontSizeFontSize110 = 68 
+
+    // Line Height
+
+    // Line Height
+    public static let lineHeightLineHeight10 = 16 
+    public static let lineHeightLineHeight20 = 20 
+    public static let lineHeightLineHeight30 = 24 
+    public static let lineHeightLineHeight40 = 28 
+    public static let lineHeightLineHeight50 = 28 
+    public static let lineHeightLineHeight60 = 32 
+    public static let lineHeightLineHeight70 = 36 
+    public static let lineHeightLineHeight80 = 44 
+    public static let lineHeightLineHeight90 = 52 
+    public static let lineHeightLineHeight100 = 56 
+    public static let lineHeightLineHeight110 = 80 
+
     // Border Width
 
     // Border Width
@@ -64,6 +108,12 @@ public struct AppMeasures {
     public static let borderWidthBorderWidth10 = 1 
     public static let borderWidthBorderWidth20 = 2 
     public static let borderWidthBorderWidth30 = 4 
+
+    // Width
+    public static let borderWidthWidth00 = 0 
+    public static let borderWidthWidth10 = 1 
+    public static let borderWidthWidth20 = 2 
+    public static let borderWidthWidth30 = 4 
 
     // Border Radius
 

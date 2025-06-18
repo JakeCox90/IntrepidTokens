@@ -13,34 +13,19 @@ public extension Color {
 
         // Colour
 
-        // Brand
-        public let colourBrandResting = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
-        public let colourBrandPressed = Color(.sRGB, red: 45/255, green: 77/255, blue: 168/255, opacity: 1) 
-        public let colourBrandSelected = Color(.sRGB, red: 20/255, green: 36/255, blue: 82/255, opacity: 1) 
-        public let colourBrandDisabled = Color(.sRGB, red: 243/255, green: 243/255, blue: 243/255, opacity: 1) 
-
         // Text
+        public let colourTextColor = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
         public let colourTextPrimary = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 1) 
         public let colourTextSecondary = Color(.sRGB, red: 135/255, green: 135/255, blue: 135/255, opacity: 1) 
         public let colourTextContrast = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
         public let colourTextDisabled = Color(.sRGB, red: 184/255, green: 184/255, blue: 184/255, opacity: 1) 
-        public let colourTextColor = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
-
-        // Link
-        public let colourLinkResting = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 1) 
-        public let colourLinkPressed = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.4) 
-        public let colourLinkDisabled = Color(.sRGB, red: 184/255, green: 184/255, blue: 184/255, opacity: 1) 
-
-        // Border
-        public let colourBorderDefault = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.1) 
-        public let colourBorderStrong = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.4) 
 
         // Surface
+        public let colourSurfaceColor = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
         public let colourSurfaceHighlight = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
         public let colourSurfaceContainer = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
         public let colourSurfacePage = Color(.sRGB, red: 243/255, green: 243/255, blue: 243/255, opacity: 1) 
         public let colourSurfaceDisabled = Color(.sRGB, red: 227/255, green: 227/255, blue: 227/255, opacity: 1) 
-        public let colourSurfaceColor = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
 
         // Overlay
         public let colourSurfaceOverlayDefault = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.2) 
@@ -49,6 +34,30 @@ public extension Color {
         // Skeleton
         public let colourSurfaceSkeletonDefault = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.2) 
         public let colourSurfaceSkeletonStrong = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.3) 
+
+        // Brand
+
+        // Primary
+        public let colourBrandPrimaryResting = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
+        public let colourBrandPrimaryPressed = Color(.sRGB, red: 45/255, green: 77/255, blue: 168/255, opacity: 1) 
+        public let colourBrandPrimarySelected = Color(.sRGB, red: 20/255, green: 36/255, blue: 82/255, opacity: 1) 
+        public let colourBrandPrimaryDisabled = Color(.sRGB, red: 243/255, green: 243/255, blue: 243/255, opacity: 1) 
+
+        // Secondary
+        public let colourBrandSecondaryResting = Color(.sRGB, red: 227/255, green: 227/255, blue: 227/255, opacity: 1) 
+        public let colourBrandSecondaryPressed = Color(.sRGB, red: 184/255, green: 184/255, blue: 184/255, opacity: 1) 
+        public let colourBrandSecondarySelected = Color(.sRGB, red: 49/255, green: 49/255, blue: 49/255, opacity: 1) 
+        public let colourBrandSecondaryDisabled = Color(.sRGB, red: 243/255, green: 243/255, blue: 243/255, opacity: 1) 
+
+        // Link
+        public let colourLinkResting = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 1) 
+        public let colourLinkPressed = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.4) 
+        public let colourLinkContrast = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+        public let colourLinkDisabled = Color(.sRGB, red: 184/255, green: 184/255, blue: 184/255, opacity: 1) 
+
+        // Border
+        public let colourBorderDefault = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.1) 
+        public let colourBorderStrong = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.4) 
 
         // Status
 
@@ -109,9 +118,9 @@ public extension Color {
         public let colourSection190 = Color(.sRGB, red: 255/255, green: 123/255, blue: 125/255, opacity: 1) 
 
         // 10
-        public let colourSection10Resting = Color(.sRGB, red: 235/255, green: 23/255, blue: 1/255, opacity: 1) 
-        public let colourSection10Pressed = Color(.sRGB, red: 179/255, green: 18/255, blue: 1/255, opacity: 1) 
-        public let colourSection10Selected = Color(.sRGB, red: 57/255, green: 5/255, blue: 0/255, opacity: 1) 
+        public let colourSection10Resting = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
+        public let colourSection10Pressed = Color(.sRGB, red: 59/255, green: 98/255, blue: 208/255, opacity: 1) 
+        public let colourSection10Selected = Color(.sRGB, red: 20/255, green: 36/255, blue: 82/255, opacity: 1) 
         public let colourSection10Disabled = Color(.sRGB, red: 243/255, green: 243/255, blue: 243/255, opacity: 1) 
 
         // 20

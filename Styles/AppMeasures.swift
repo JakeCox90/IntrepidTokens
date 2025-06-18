@@ -103,17 +103,17 @@ public struct AppMeasures {
 
     // Border Width
 
-    // Border Width
-    public static let borderWidthBorderWidth00 = 0 
-    public static let borderWidthBorderWidth10 = 1 
-    public static let borderWidthBorderWidth20 = 2 
-    public static let borderWidthBorderWidth30 = 4 
-
     // Width
     public static let borderWidthWidth00 = 0 
     public static let borderWidthWidth10 = 1 
     public static let borderWidthWidth20 = 2 
     public static let borderWidthWidth30 = 4 
+
+    // Border Width
+    public static let borderWidthBorderWidth00 = 0 
+    public static let borderWidthBorderWidth10 = 1 
+    public static let borderWidthBorderWidth20 = 2 
+    public static let borderWidthBorderWidth30 = 4 
 
     // Border Radius
 

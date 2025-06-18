@@ -11,6 +11,18 @@ public extension Text {
             .textCase(.uppercase) 
     }
 
+    func textStyleTypographyDisplay02() -> some View {
+        return self
+            .font(Font.custom("Inter-700", size: 32))
+            .textCase(.uppercase) 
+    }
+
+    func textStyleTypographyDisplay03() -> some View {
+        return self
+            .font(Font.custom("Inter-700", size: 16))
+            .textCase(.uppercase) 
+    }
+
     /// Huge headlines
     func textStyleTypographyHeadng01() -> some View {
         return self
@@ -19,12 +31,12 @@ public extension Text {
 
     func textStyleTypographyHeading02() -> some View {
         return self
-            .font(Font.custom("Inter-700", size: 47))
+            .font(Font.custom("Inter-700", size: 48))
     }
 
     func textStyleTypographyHeading03() -> some View {
         return self
-            .font(Font.custom("Inter-700", size: 33))
+            .font(Font.custom("Inter-700", size: 32))
     }
 
     func textStyleTypographyHeading04() -> some View {
@@ -96,17 +108,5 @@ public extension Text {
     func textStyleTypographyFormHelper() -> some View {
         return self
             .font(Font.custom("Inter-400", size: 14))
-    }
-
-    func textStyleTypographyDisplay02() -> some View {
-        return self
-            .font(Font.custom("Inter-700", size: 32))
-            .textCase(.uppercase) 
-    }
-
-    func textStyleTypographyDisplay03() -> some View {
-        return self
-            .font(Font.custom("Inter-700", size: 28))
-            .textCase(.uppercase) 
     }
 }

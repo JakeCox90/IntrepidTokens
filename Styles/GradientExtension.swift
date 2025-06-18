@@ -11,7 +11,7 @@ public extension Gradient {
 
         // Gradient
 
-        public let colourGradientHeavy = LinearGradient(
+        public let gradientHeavy = LinearGradient(
             gradient: Gradient(stops: [
                 Gradient.Stop(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0), location: 0),
                 Gradient.Stop(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.6), location: 0.5),
@@ -21,16 +21,7 @@ public extension Gradient {
             endPoint: UnitPoint(x: 0.5, y: 1) 
         )
 
-        public let colourGradientLight = LinearGradient(
-            gradient: Gradient(stops: [
-                Gradient.Stop(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.1), location: 0),
-                Gradient.Stop(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0), location: 1),
-            ]),
-            startPoint: UnitPoint(x: 0.5, y: 0),
-            endPoint: UnitPoint(x: 0.5, y: 1) 
-        )
-
-        public let colourGradientMedium = LinearGradient(
+        public let gradientMedium = LinearGradient(
             gradient: Gradient(stops: [
                 Gradient.Stop(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.2), location: 0),
                 Gradient.Stop(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0), location: 1),
@@ -39,7 +30,16 @@ public extension Gradient {
             endPoint: UnitPoint(x: 0.5, y: 1) 
         )
 
-        public let colourGradientLoading = LinearGradient(
+        public let gradientLight = LinearGradient(
+            gradient: Gradient(stops: [
+                Gradient.Stop(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.1), location: 0),
+                Gradient.Stop(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0), location: 1),
+            ]),
+            startPoint: UnitPoint(x: 0.5, y: 0),
+            endPoint: UnitPoint(x: 0.5, y: 1) 
+        )
+
+        public let gradientLoading = LinearGradient(
             gradient: Gradient(stops: [
                 Gradient.Stop(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0), location: 0),
                 Gradient.Stop(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.3), location: 1),

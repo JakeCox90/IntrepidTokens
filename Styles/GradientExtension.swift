@@ -6,46 +6,5 @@ public extension Gradient {
     static let Token = Gradient.TokenGradient()
     
     struct TokenGradient {
-
-        // Colour
-
-        // Gradient
-
-        public let gradientHeavy = LinearGradient(
-            gradient: Gradient(stops: [
-                Gradient.Stop(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0), location: 0),
-                Gradient.Stop(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.6), location: 0.5),
-                Gradient.Stop(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.8), location: 1),
-            ]),
-            startPoint: UnitPoint(x: 0.5, y: 0),
-            endPoint: UnitPoint(x: 0.5, y: 1) 
-        )
-
-        public let gradientMedium = LinearGradient(
-            gradient: Gradient(stops: [
-                Gradient.Stop(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.2), location: 0),
-                Gradient.Stop(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0), location: 1),
-            ]),
-            startPoint: UnitPoint(x: 0.5, y: 0),
-            endPoint: UnitPoint(x: 0.5, y: 1) 
-        )
-
-        public let gradientLight = LinearGradient(
-            gradient: Gradient(stops: [
-                Gradient.Stop(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.1), location: 0),
-                Gradient.Stop(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0), location: 1),
-            ]),
-            startPoint: UnitPoint(x: 0.5, y: 0),
-            endPoint: UnitPoint(x: 0.5, y: 1) 
-        )
-
-        public let gradientLoading = LinearGradient(
-            gradient: Gradient(stops: [
-                Gradient.Stop(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0), location: 0),
-                Gradient.Stop(color: Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.3), location: 1),
-            ]),
-            startPoint: UnitPoint(x: 0, y: 0.5),
-            endPoint: UnitPoint(x: 1, y: 0.5) 
-        )
     }
 }

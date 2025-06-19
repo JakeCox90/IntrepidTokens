@@ -5,5 +5,108 @@ public struct AppMeasures {
 
     // Dimension
 
+    // Opacity
+    public static let dimensionOpacity0 = 0 
+    public static let dimensionOpacity10 = 0.1 
+    public static let dimensionOpacity20 = 0.2 
+    public static let dimensionOpacity30 = 0.3 
+    public static let dimensionOpacity40 = 0.4 
+    public static let dimensionOpacity50 = 0.5 
+    public static let dimensionOpacity60 = 0.6 
+    public static let dimensionOpacity70 = 0.7 
+    public static let dimensionOpacity80 = 0.8 
+    public static let dimensionOpacity90 = 0.9 
+    public static let dimensionOpacity100 = 1 
+    public static let dimensionOpacity0 = 0 
+    public static let dimensionOpacity10 = 0.1 
+    public static let dimensionOpacity20 = 0.2 
+    public static let dimensionOpacity30 = 0.3 
+    public static let dimensionOpacity40 = 0.4 
+    public static let dimensionOpacity50 = 0.5 
+    public static let dimensionOpacity60 = 0.6 
+    public static let dimensionOpacity70 = 0.7 
+    public static let dimensionOpacity80 = 0.8 
+    public static let dimensionOpacity90 = 0.9 
+    public static let dimensionOpacity100 = 1 
+
+    // Sizing
+    public static let dimensionSizing00 = 0 
+    public static let dimensionSizing05 = 2 
+    public static let dimensionSizing10 = 4 
+    public static let dimensionSizing20 = 8 
+    public static let dimensionSizing30 = 12 
+    public static let dimensionSizing40 = 16 
+    public static let dimensionSizing50 = 20 
+    public static let dimensionSizing60 = 24 
+    public static let dimensionSizing70 = 32 
+    public static let dimensionSizing80 = 40 
+    public static let dimensionSizing90 = 48 
+    public static let dimensionSizing100 = 64 
+    public static let dimensionSizing110 = 80 
+    public static let dimensionSizing120 = 120 
+    public static let dimensionSizing130 = 160 
+
+    // Font Size
+    public static let dimensionFontSize10 = 12 
+    public static let dimensionFontSize20 = 14 
+    public static let dimensionFontSize30 = 16 
+    public static let dimensionFontSize40 = 18 
+    public static let dimensionFontSize50 = 20 
+    public static let dimensionFontSize60 = 24 
+    public static let dimensionFontSize70 = 28 
+    public static let dimensionFontSize80 = 32 
+    public static let dimensionFontSize90 = 40 
+    public static let dimensionFontSize100 = 48 
+    public static let dimensionFontSize110 = 68 
+
+    // Line Height
+    public static let dimensionLineHeight10 = 16 
+    public static let dimensionLineHeight20 = 20 
+    public static let dimensionLineHeight30 = 24 
+    public static let dimensionLineHeight40 = 28 
+    public static let dimensionLineHeight50 = 28 
+    public static let dimensionLineHeight60 = 32 
+    public static let dimensionLineHeight70 = 36 
+    public static let dimensionLineHeight80 = 44 
+    public static let dimensionLineHeight90 = 52 
+    public static let dimensionLineHeight100 = 56 
+    public static let dimensionLineHeight110 = 80 
+
+    // Border Radius
+    public static let dimensionBorderRadiusDefault = 12 
+    public static let dimensionBorderRadiusPill = 80 
+    public static let dimensionBorderRadiusFull = 160 
+    public static let dimensionBorderRadius00 = 0 
+    public static let dimensionBorderRadius05 = 2 
+    public static let dimensionBorderRadius10 = 4 
+    public static let dimensionBorderRadius20 = 8 
+    public static let dimensionBorderRadius30 = 12 
+    public static let dimensionBorderRadius40 = 16 
+    public static let dimensionBorderRadius45 = 20 
+    public static let dimensionBorderRadius50 = 24 
+    public static let dimensionBorderRadius60 = 32 
+
+    // Width
+    public static let dimensionWidth00 = 0 
+    public static let dimensionWidth10 = 1 
+    public static let dimensionWidth20 = 2 
+    public static let dimensionWidth30 = 4 
+
+    // Space
+    public static let dimensionSpace00 = 0 
+    public static let dimensionSpace10 = 4 
+    public static let dimensionSpace20 = 8 
+    public static let dimensionSpace30 = 12 
+    public static let dimensionSpace40 = 16 
+    public static let dimensionSpace50 = 20 
+    public static let dimensionSpace60 = 24 
+    public static let dimensionSpace70 = 32 
+    public static let dimensionSpace80 = 40 
+    public static let dimensionSpace90 = 48 
+    public static let dimensionSpace100 = 64 
+    public static let dimensionSpace110 = 80 
+    public static let dimensionSpace120 = 120 
+    public static let dimensionSpace130 = 160 
+
     // Border Radius
 }

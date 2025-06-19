@@ -19,6 +19,17 @@ public struct AppMeasures {
     public static let opacityOpacity80 = 1 
     public static let opacityOpacity90 = 1 
     public static let opacityOpacity100 = 1 
+    public static let opacityOpacity0 = 0 
+    public static let opacityOpacity10 = 0 
+    public static let opacityOpacity20 = 0 
+    public static let opacityOpacity30 = 0 
+    public static let opacityOpacity40 = 0 
+    public static let opacityOpacity50 = 1 
+    public static let opacityOpacity60 = 1 
+    public static let opacityOpacity70 = 1 
+    public static let opacityOpacity80 = 1 
+    public static let opacityOpacity90 = 1 
+    public static let opacityOpacity100 = 1 
 
     // Size
 
@@ -40,35 +51,35 @@ public struct AppMeasures {
     public static let sizeSizing130 = 160 
 
     // Space
-    public static let space00 = 0 
-    public static let space10 = 4 
-    public static let space20 = 8 
-    public static let space30 = 12 
-    public static let space40 = 16 
-    public static let space50 = 20 
-    public static let space60 = 24 
-    public static let space70 = 32 
-    public static let space80 = 40 
-    public static let space90 = 48 
-    public static let space100 = 64 
-    public static let space110 = 80 
-    public static let space120 = 120 
-    public static let space130 = 160 
 
     // Space
     public static let spaceSpace00 = 0 
+    public static let spaceSpace00 = 0 
+    public static let spaceSpace10 = 4 
     public static let spaceSpace10 = 4 
     public static let spaceSpace20 = 8 
+    public static let spaceSpace20 = 8 
+    public static let spaceSpace30 = 12 
     public static let spaceSpace30 = 12 
     public static let spaceSpace40 = 16 
+    public static let spaceSpace40 = 16 
+    public static let spaceSpace50 = 20 
     public static let spaceSpace50 = 20 
     public static let spaceSpace60 = 24 
+    public static let spaceSpace60 = 24 
+    public static let spaceSpace70 = 32 
     public static let spaceSpace70 = 32 
     public static let spaceSpace80 = 40 
+    public static let spaceSpace80 = 40 
+    public static let spaceSpace90 = 48 
     public static let spaceSpace90 = 48 
     public static let spaceSpace100 = 64 
+    public static let spaceSpace100 = 64 
+    public static let spaceSpace110 = 80 
     public static let spaceSpace110 = 80 
     public static let spaceSpace120 = 120 
+    public static let spaceSpace120 = 120 
+    public static let spaceSpace130 = 160 
     public static let spaceSpace130 = 160 
 
     // Font Size

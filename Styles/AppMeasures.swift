@@ -5,106 +5,21 @@ public struct AppMeasures {
 
     // Dimension
 
-    // Sizing
-    public static let dimensionSizing00 = 0 
-    public static let dimensionSizing05 = 2 
-    public static let dimensionSizing10 = 4 
-    public static let dimensionSizing20 = 8 
-    public static let dimensionSizing30 = 12 
-    public static let dimensionSizing40 = 16 
-    public static let dimensionSizing50 = 20 
-    public static let dimensionSizing60 = 24 
-    public static let dimensionSizing70 = 32 
-    public static let dimensionSizing80 = 40 
-    public static let dimensionSizing90 = 48 
-    public static let dimensionSizing100 = 64 
-    public static let dimensionSizing110 = 80 
-    public static let dimensionSizing120 = 120 
-    public static let dimensionSizing130 = 160 
-
-    // Font Size
-    public static let dimensionFontSize10 = 12 
-    public static let dimensionFontSize20 = 14 
-    public static let dimensionFontSize30 = 16 
-    public static let dimensionFontSize40 = 18 
-    public static let dimensionFontSize50 = 20 
-    public static let dimensionFontSize60 = 24 
-    public static let dimensionFontSize70 = 28 
-    public static let dimensionFontSize80 = 32 
-    public static let dimensionFontSize90 = 40 
-    public static let dimensionFontSize100 = 48 
-    public static let dimensionFontSize110 = 68 
-    public static let dimensionFontSize120 = 80 
-    public static let dimensionFontSize130 = 100 
-
-    // Line Height
-    public static let dimensionLineHeight10 = 16 
-    public static let dimensionLineHeight20 = 20 
-    public static let dimensionLineHeight30 = 24 
-    public static let dimensionLineHeight40 = 28 
-    public static let dimensionLineHeight50 = 28 
-    public static let dimensionLineHeight60 = 32 
-    public static let dimensionLineHeight70 = 36 
-    public static let dimensionLineHeight80 = 44 
-    public static let dimensionLineHeight90 = 52 
-    public static let dimensionLineHeight100 = 56 
-    public static let dimensionLineHeight110 = 80 
-    public static let dimensionLineHeight120 = 92 
-    public static let dimensionLineHeight130 = 108 
-
-    // Border Radius
-    public static let dimensionBorderRadiusDefault = 12 
-    public static let dimensionBorderRadiusPill = 80 
-    public static let dimensionBorderRadiusFull = 160 
-    public static let dimensionBorderRadius00 = 0 
-    public static let dimensionBorderRadius05 = 2 
-    public static let dimensionBorderRadius10 = 4 
-    public static let dimensionBorderRadius20 = 8 
-    public static let dimensionBorderRadius30 = 12 
-    public static let dimensionBorderRadius40 = 16 
-    public static let dimensionBorderRadius45 = 20 
-    public static let dimensionBorderRadius50 = 24 
-    public static let dimensionBorderRadius60 = 32 
-
-    // Width
-    public static let dimensionWidth00 = 0 
-    public static let dimensionWidth10 = 1 
-    public static let dimensionWidth20 = 2 
-    public static let dimensionWidth30 = 4 
-
-    // Space
-    public static let dimensionSpace00 = 0 
-    public static let dimensionSpace10 = 4 
-    public static let dimensionSpace20 = 8 
-    public static let dimensionSpace30 = 12 
-    public static let dimensionSpace40 = 16 
-    public static let dimensionSpace50 = 20 
-    public static let dimensionSpace60 = 24 
-    public static let dimensionSpace70 = 32 
-    public static let dimensionSpace80 = 40 
-    public static let dimensionSpace90 = 48 
-    public static let dimensionSpace100 = 64 
-    public static let dimensionSpace110 = 80 
-    public static let dimensionSpace120 = 120 
-    public static let dimensionSpace130 = 160 
-
-    // Opacity
-    public static let dimensionOpacity0 = 0 
-    public static let dimensionOpacity10 = 0.1 
-    public static let dimensionOpacity20 = 0.2 
-    public static let dimensionOpacity30 = 0.3 
-    public static let dimensionOpacity40 = 0.4 
-    public static let dimensionOpacity50 = 0.5 
-    public static let dimensionOpacity60 = 0.6 
-    public static let dimensionOpacity70 = 0.7 
-    public static let dimensionOpacity80 = 0.8 
-    public static let dimensionOpacity90 = 0.9 
-    public static let dimensionOpacity100 = 1 
-
     // Opacity
 
     // Opacity
     public static let opacityOpacity0 = 0 
+    public static let opacityOpacity0 = 0 
+    public static let opacityOpacity10 = 0 
+    public static let opacityOpacity20 = 0 
+    public static let opacityOpacity30 = 0 
+    public static let opacityOpacity40 = 0 
+    public static let opacityOpacity50 = 1 
+    public static let opacityOpacity60 = 1 
+    public static let opacityOpacity70 = 1 
+    public static let opacityOpacity80 = 1 
+    public static let opacityOpacity90 = 1 
+    public static let opacityOpacity100 = 1 
     public static let opacityOpacity10 = 0 
     public static let opacityOpacity20 = 0 
     public static let opacityOpacity30 = 0 
@@ -131,6 +46,21 @@ public struct AppMeasures {
 
     // Sizing
     public static let sizeSizing00 = 0 
+    public static let sizeSizing00 = 0 
+    public static let sizeSizing05 = 2 
+    public static let sizeSizing10 = 4 
+    public static let sizeSizing20 = 8 
+    public static let sizeSizing30 = 12 
+    public static let sizeSizing40 = 16 
+    public static let sizeSizing50 = 20 
+    public static let sizeSizing60 = 24 
+    public static let sizeSizing70 = 32 
+    public static let sizeSizing80 = 40 
+    public static let sizeSizing90 = 48 
+    public static let sizeSizing100 = 64 
+    public static let sizeSizing110 = 80 
+    public static let sizeSizing120 = 120 
+    public static let sizeSizing130 = 160 
     public static let sizeSizing05 = 2 
     public static let sizeSizing10 = 4 
     public static let sizeSizing20 = 8 
@@ -150,6 +80,20 @@ public struct AppMeasures {
 
     // Space
     public static let spaceSpace00 = 0 
+    public static let spaceSpace00 = 0 
+    public static let spaceSpace10 = 4 
+    public static let spaceSpace20 = 8 
+    public static let spaceSpace30 = 12 
+    public static let spaceSpace40 = 16 
+    public static let spaceSpace50 = 20 
+    public static let spaceSpace60 = 24 
+    public static let spaceSpace70 = 32 
+    public static let spaceSpace80 = 40 
+    public static let spaceSpace90 = 48 
+    public static let spaceSpace100 = 64 
+    public static let spaceSpace110 = 80 
+    public static let spaceSpace120 = 120 
+    public static let spaceSpace130 = 160 
     public static let spaceSpace10 = 4 
     public static let spaceSpace20 = 8 
     public static let spaceSpace30 = 12 
@@ -168,6 +112,19 @@ public struct AppMeasures {
 
     // Font Size
     public static let fontSizeFontSize10 = 12 
+    public static let fontSizeFontSize10 = 12 
+    public static let fontSizeFontSize20 = 14 
+    public static let fontSizeFontSize30 = 16 
+    public static let fontSizeFontSize40 = 18 
+    public static let fontSizeFontSize50 = 20 
+    public static let fontSizeFontSize60 = 24 
+    public static let fontSizeFontSize70 = 28 
+    public static let fontSizeFontSize80 = 32 
+    public static let fontSizeFontSize90 = 40 
+    public static let fontSizeFontSize100 = 48 
+    public static let fontSizeFontSize110 = 68 
+    public static let fontSizeFontSize120 = 80 
+    public static let fontSizeFontSize130 = 100 
     public static let fontSizeFontSize20 = 14 
     public static let fontSizeFontSize30 = 16 
     public static let fontSizeFontSize40 = 18 
@@ -183,6 +140,19 @@ public struct AppMeasures {
 
     // Line Height
     public static let lineHeightLineHeight10 = 16 
+    public static let lineHeightLineHeight10 = 16 
+    public static let lineHeightLineHeight20 = 20 
+    public static let lineHeightLineHeight30 = 24 
+    public static let lineHeightLineHeight40 = 28 
+    public static let lineHeightLineHeight50 = 28 
+    public static let lineHeightLineHeight60 = 32 
+    public static let lineHeightLineHeight70 = 36 
+    public static let lineHeightLineHeight80 = 44 
+    public static let lineHeightLineHeight90 = 52 
+    public static let lineHeightLineHeight100 = 56 
+    public static let lineHeightLineHeight110 = 80 
+    public static let lineHeightLineHeight120 = 92 
+    public static let lineHeightLineHeight130 = 108 
     public static let lineHeightLineHeight20 = 20 
     public static let lineHeightLineHeight30 = 24 
     public static let lineHeightLineHeight40 = 28 
@@ -198,6 +168,10 @@ public struct AppMeasures {
 
     // Width
     public static let borderWidthWidth00 = 0 
+    public static let borderWidthWidth00 = 0 
+    public static let borderWidthWidth10 = 1 
+    public static let borderWidthWidth20 = 2 
+    public static let borderWidthWidth30 = 4 
     public static let borderWidthWidth10 = 1 
     public static let borderWidthWidth20 = 2 
     public static let borderWidthWidth30 = 4 
@@ -206,6 +180,18 @@ public struct AppMeasures {
 
     // Border Radius
     public static let borderRadiusBorderRadiusDefault = 12 
+    public static let borderRadiusBorderRadiusDefault = 12 
+    public static let borderRadiusBorderRadiusPill = 80 
+    public static let borderRadiusBorderRadiusFull = 160 
+    public static let borderRadiusBorderRadius00 = 0 
+    public static let borderRadiusBorderRadius05 = 2 
+    public static let borderRadiusBorderRadius10 = 4 
+    public static let borderRadiusBorderRadius20 = 8 
+    public static let borderRadiusBorderRadius30 = 12 
+    public static let borderRadiusBorderRadius40 = 16 
+    public static let borderRadiusBorderRadius45 = 20 
+    public static let borderRadiusBorderRadius50 = 24 
+    public static let borderRadiusBorderRadius60 = 32 
     public static let borderRadiusBorderRadiusPill = 80 
     public static let borderRadiusBorderRadiusFull = 160 
     public static let borderRadiusBorderRadius00 = 0 

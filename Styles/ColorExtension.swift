@@ -7,6 +7,18 @@ public extension Color {
     
     struct TokenColor {
 
+        // Brand-Light
+        public let brandLightResting = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
+        public let brandLightPressed = Color(.sRGB, red: 45/255, green: 77/255, blue: 168/255, opacity: 1) 
+        public let brandLightSelected = Color(.sRGB, red: 20/255, green: 36/255, blue: 82/255, opacity: 1) 
+        public let brandLightDisabled = Color(.sRGB, red: 243/255, green: 243/255, blue: 243/255, opacity: 1) 
+
+        // Brand-Dark
+        public let brandDarkResting = Color(.sRGB, red: 118/255, green: 149/255, blue: 239/255, opacity: 1) 
+        public let brandDarkPressed = Color(.sRGB, red: 59/255, green: 98/255, blue: 208/255, opacity: 1) 
+        public let brandDarkSelected = Color(.sRGB, red: 32/255, green: 56/255, blue: 125/255, opacity: 1) 
+        public let brandDarkDisabled = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.2) 
+
         // Colour
 
         // Brand
@@ -291,18 +303,6 @@ public extension Color {
         public let paletteWhiteTint20 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.2) 
         public let paletteWhiteTint10 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.1) 
         public let paletteWhiteTint0 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0) 
-
-        // Brand-Light
-        public let brandLightResting = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
-        public let brandLightPressed = Color(.sRGB, red: 45/255, green: 77/255, blue: 168/255, opacity: 1) 
-        public let brandLightSelected = Color(.sRGB, red: 20/255, green: 36/255, blue: 82/255, opacity: 1) 
-        public let brandLightDisabled = Color(.sRGB, red: 243/255, green: 243/255, blue: 243/255, opacity: 1) 
-
-        // Brand-Dark
-        public let brandDarkResting = Color(.sRGB, red: 118/255, green: 149/255, blue: 239/255, opacity: 1) 
-        public let brandDarkPressed = Color(.sRGB, red: 59/255, green: 98/255, blue: 208/255, opacity: 1) 
-        public let brandDarkSelected = Color(.sRGB, red: 32/255, green: 56/255, blue: 125/255, opacity: 1) 
-        public let brandDarkDisabled = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.2) 
 
         // Light
 

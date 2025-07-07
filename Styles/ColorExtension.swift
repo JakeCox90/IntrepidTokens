@@ -7,6 +7,38 @@ public extension Color {
     
     struct TokenColor {
 
+        // Light
+
+        // Primary
+        public let lightPrimaryResting = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
+        public let lightPrimaryPressed = Color(.sRGB, red: 45/255, green: 77/255, blue: 168/255, opacity: 1) 
+        public let lightPrimarySelected = Color(.sRGB, red: 20/255, green: 36/255, blue: 82/255, opacity: 1) 
+        public let lightPrimaryText = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+        public let lightPrimaryDisabled = Color(.sRGB, red: 243/255, green: 243/255, blue: 243/255, opacity: 1) 
+
+        // Secondary
+        public let lightSecondaryResting = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.2) 
+        public let lightSecondaryPressed = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.4) 
+        public let lightSecondarySelected = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 1) 
+        public let lightSecondaryText = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+        public let lightSecondaryDisabled = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.1) 
+
+        // Dark
+
+        // Primary
+        public let darkPrimaryResting = Color(.sRGB, red: 118/255, green: 149/255, blue: 239/255, opacity: 1) 
+        public let darkPrimaryPressed = Color(.sRGB, red: 59/255, green: 98/255, blue: 208/255, opacity: 1) 
+        public let darkPrimarySelected = Color(.sRGB, red: 32/255, green: 56/255, blue: 125/255, opacity: 1) 
+        public let darkPrimaryText = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+        public let darkPrimaryDisabled = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.2) 
+
+        // Secondary
+        public let darkSecondaryResting = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.2) 
+        public let darkSecondaryPressed = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.4) 
+        public let darkSecondarySelected = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+        public let darkSecondaryText = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
+        public let darkSecondaryDisabled = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.2) 
+
         // Brand Primary
         public let brandPrimaryResting = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
         public let brandPrimaryPressed = Color(.sRGB, red: 45/255, green: 77/255, blue: 168/255, opacity: 1) 
@@ -297,38 +329,6 @@ public extension Color {
         public let corePaletteWhiteTint20 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.2) 
         public let corePaletteWhiteTint10 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.1) 
         public let corePaletteWhiteTint0 = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0) 
-
-        // Light
-
-        // Primary
-        public let lightPrimaryResting = Color(.sRGB, red: 74/255, green: 119/255, blue: 248/255, opacity: 1) 
-        public let lightPrimaryPressed = Color(.sRGB, red: 45/255, green: 77/255, blue: 168/255, opacity: 1) 
-        public let lightPrimarySelected = Color(.sRGB, red: 20/255, green: 36/255, blue: 82/255, opacity: 1) 
-        public let lightPrimaryText = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
-        public let lightPrimaryDisabled = Color(.sRGB, red: 243/255, green: 243/255, blue: 243/255, opacity: 1) 
-
-        // Secondary
-        public let lightSecondaryResting = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.2) 
-        public let lightSecondaryPressed = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.4) 
-        public let lightSecondarySelected = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 1) 
-        public let lightSecondaryText = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
-        public let lightSecondaryDisabled = Color(.sRGB, red: 29/255, green: 29/255, blue: 27/255, opacity: 0.1) 
-
-        // Dark
-
-        // Primary
-        public let darkPrimaryResting = Color(.sRGB, red: 118/255, green: 149/255, blue: 239/255, opacity: 1) 
-        public let darkPrimaryPressed = Color(.sRGB, red: 59/255, green: 98/255, blue: 208/255, opacity: 1) 
-        public let darkPrimarySelected = Color(.sRGB, red: 32/255, green: 56/255, blue: 125/255, opacity: 1) 
-        public let darkPrimaryText = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
-        public let darkPrimaryDisabled = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.2) 
-
-        // Secondary
-        public let darkSecondaryResting = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.2) 
-        public let darkSecondaryPressed = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.4) 
-        public let darkSecondarySelected = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
-        public let darkSecondaryText = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 1) 
-        public let darkSecondaryDisabled = Color(.sRGB, red: 255/255, green: 255/255, blue: 255/255, opacity: 0.2) 
 
         // Colour
 
